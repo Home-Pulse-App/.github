@@ -2,6 +2,8 @@
 
 Welcome to the **Home Pulse**! This repository serves as the home for our full‑stack application and the shared standards, conventions, and resources that support it.
 
+![alt text](https://github.com/Home-Pulse-App/.github/raw/main/HomePulseLogo.png)
+
 ## 🚀 Overview
 
 This organization hosts the codebase and supporting materials for a modern full‑stack application. Our goal is to create a scalable, maintainable, and collaborative environment for development across backend, frontend, infrastructure, and documentation.
