@@ -2,7 +2,9 @@
 
 Welcome to the **Home Pulse**! This repository serves as the home for our full‑stack application and the shared standards, conventions, and resources that support it.
 
-![alt text](https://github.com/Home-Pulse-App/.github/raw/main/HomePulseLogo.png)
+<p align="center">
+  <img src="https://github.com/Home-Pulse-App/.github/raw/main/HomePulseLogo.png" alt="HomePulse Logo">
+</p>
 
 ## 🚀 Overview
 
