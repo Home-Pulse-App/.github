@@ -6,9 +6,11 @@ Welcome to the **Home Pulse**! This repository serves as the home for our full�
   <img src="https://github.com/Home-Pulse-App/.github/raw/main/HomePulseLogo.png" alt="HomePulse Logo">
 </p>
 
+_This organization hosts the codebase and supporting materials for a modern full‑stack application. Our goal is to create a scalable, maintainable, and collaborative environment for development across backend, frontend, infrastructure, and documentation._
+
 ## 🚀 Overview
 
-This organization hosts the codebase and supporting materials for a modern full‑stack application. Our goal is to create a scalable, maintainable, and collaborative environment for development across backend, frontend, infrastructure, and documentation.
+Home Pulse is a smart home platform that enables users to register their home, designate rooms, & connect smart home devices to monitor metrics such as temperature, humidity, & light status / intensity using ESP32-based devices.
 
 ## 📁 Repository Structure
 
