@@ -14,10 +14,10 @@ This organization hosts the codebase and supporting materials for a modern full�
 
 This organization may contain multiple repositories. Typical structure:
 
-- **frontend** – Client‑side application
-- **backend** – Server‑side application and APIs
-- **infrastructure** – Deployment, IaC, config, CI/CD scripts
-- **design-docs** – Architecture diagrams, decision logs, specs
+- **Frontend** – Client‑side application
+- **Backend** – Server‑side application and APIs
+- **Infrastructure** – Deployment, IaC, config, CI/CD scripts
+- **Design-docs** – Architecture diagrams, decision logs, specs
 
 ## 🧰 Tech Stack
 
