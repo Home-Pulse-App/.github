@@ -26,9 +26,19 @@ This organization may contain multiple repositories. Typical structure:
 While individual repositories specify their exact stack, the baseline technologies include:
 
 - **Frontend:** React, Three.js, Tailwind CSS, React Three Fiber (Three.js for React), Sparkjs (for Gaussian Splat loading & utilities), shadCN, React Bits (component libraries), Chart.js / Vite
-- **Backend:** Node.js / Express
-- **Database:** TBC
+- **Backend:** Node.js / Express, MQTT, Swagger, JWT, BCRYPT, GridFS
+- **Database:** Mongo DB
 - **Infrastructure:** GitHub Actions
+- 
+## 📨 Data flow
+
+flowchart LR
+    Device -->|MQTT Publish| Broker
+    Broker --> Backend
+    Backend --> DB[(MongoDB)]
+    Backend --> Frontend
+    Frontend -->|Fetch Data| Backend
+
 
 ## ✨ Development Standards
 
