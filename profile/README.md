@@ -10,27 +10,39 @@ Welcome to the **Home Pulse**! This repository serves as the home for our full�
   <img src="https://github.com/Home-Pulse-App/.github/raw/main/Home_Pulse_Demo.gif" alt=" Home Pulse Demo">
 </p>
 
+_This organization hosts the codebase and supporting materials for a modern full‑stack application. Our goal is to create a scalable, maintainable, and collaborative environment for development across backend, frontend, infrastructure, and documentation._
+
 ## 🚀 Overview
 
-This organization hosts the codebase and supporting materials for a modern full‑stack application. Our goal is to create a scalable, maintainable, and collaborative environment for development across backend, frontend, infrastructure, and documentation.
+Home Pulse is a smart home platform that enables users to register their home, designate rooms, & connect smart home devices to monitor metrics such as temperature, humidity, & light status / intensity using ESP32-based devices.
 
 ## 📁 Repository Structure
 
 This organization may contain multiple repositories. Typical structure:
 
-- **frontend** – Client‑side application
-- **backend** – Server‑side application and APIs
-- **infrastructure** – Deployment, IaC, config, CI/CD scripts
-- **design-docs** – Architecture diagrams, decision logs, specs
+- **Frontend** – Client‑side application
+- **Backend** – Server‑side application and APIs
+- **Infrastructure** – Deployment, IaC, config, CI/CD scripts
+- **Design-docs** – Architecture diagrams, decision logs, specs
 
 ## 🧰 Tech Stack
 
 While individual repositories specify their exact stack, the baseline technologies include:
 
 - **Frontend:** React, Three.js, Tailwind CSS, React Three Fiber (Three.js for React), Sparkjs (for Gaussian Splat loading & utilities), shadCN, React Bits (component libraries), Chart.js / Vite
-- **Backend:** Node.js / Express
-- **Database:** TBC
+- **Backend:** Node.js / Express, MQTT, Swagger, JWT, BCRYPT, GridFS
+- **Database:** Mongo DB
 - **Infrastructure:** GitHub Actions
+- 
+## 📨 Data flow
+
+flowchart LR
+    Device -->|MQTT Publish| Broker
+    Broker --> Backend
+    Backend --> DB[(MongoDB)]
+    Backend --> Frontend
+    Frontend -->|Fetch Data| Backend
+
 
 ## ✨ Development Standards
 
