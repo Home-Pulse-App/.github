@@ -88,7 +88,7 @@ This project was initially developed with contributions from:
 - Alfredo Chavez Romero
 - Adam Koep
 - Artak Navoyan
-- Miguel Ángel Torrubia Moya
+- Miguel Angel Torrubia Moya
 
 ## 📄 Licensing
 
