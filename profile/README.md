@@ -33,16 +33,16 @@ While individual repositories specify their exact stack, the baseline technologi
 - **Backend:** Node.js / Express, MQTT, Swagger, JWT, BCRYPT, GridFS
 - **Database:** Mongo DB
 - **Infrastructure:** GitHub Actions
-- 
+-
+
 ## 📨 Data flow
 
 flowchart LR
-    Device -->|MQTT Publish| Broker
-    Broker --> Backend
-    Backend --> DB[(MongoDB)]
-    Backend --> Frontend
-    Frontend -->|Fetch Data| Backend
-
+Device -->|MQTT Publish| Broker
+Broker --> Backend
+Backend --> DB[(MongoDB)]
+Backend --> Frontend
+Frontend -->|Fetch Data| Backend
 
 ## ✨ Development Standards
 
@@ -80,6 +80,15 @@ Contributions are welcomed! Please:
 - Open an issue before major changes
 - Follow repository‑specific guidelines
 - Keep discussions respectful and constructive
+
+👥 Initial Contributors
+
+This project was initially developed with contributions from:
+
+- Alfredo Chavez Romero
+- Adam Koep
+- Artak Navoyan
+- Miguel Ángel Torrubia Moya
 
 ## 📄 Licensing
 
