@@ -33,11 +33,9 @@ While individual repositories specify their exact stack, the baseline technologi
 - **Backend:** Node.js / Express, MQTT, Swagger, JWT, BCRYPT, GridFS
 - **Database:** Mongo DB
 - **Infrastructure:** GitHub Actions
--
 
 ## 📨 Data flow
 
-flowchart LR
 Device -->|MQTT Publish| Broker
 Broker --> Backend
 Backend --> DB[(MongoDB)]
